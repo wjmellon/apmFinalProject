@@ -1,0 +1,604 @@
+"","lesion_id","image_id","dx","dx_type","age","sex","localization","dataset","cancerous"
+"1","HAMTEST_0000002","ISIC_0034526","bkl","histo",70,"male","back","rosendahl",0
+"2","HAMTEST_0000005","ISIC_0034529","mel","histo",NA,"unknown","unknown","external",1
+"3","HAMTEST_0000007","ISIC_0034531","bkl","histo",70,"male","back","rosendahl",0
+"4","HAMTEST_0000011","ISIC_0034535","bkl","consensus",NA,"unknown","unknown","external",0
+"5","HAMTEST_0000012","ISIC_0034536","akiec","histo",70,"female","face","rosendahl",1
+"6","HAMTEST_0000014","ISIC_0034538","akiec","histo",50,"male","face","rosendahl",1
+"7","HAMTEST_0000015","ISIC_0034539","bkl","histo",75,"male","back","vidir_modern",0
+"8","HAMTEST_0000018","ISIC_0034542","bkl","consensus",NA,"unknown","unknown","external",0
+"9","HAMTEST_0000021","ISIC_0034545","bcc","histo",50,"female","upper extremity","vidir_modern",1
+"10","HAMTEST_0000022","ISIC_0034546","bkl","consensus",70,"male","back","vidir_molemax",0
+"11","HAMTEST_0000023","ISIC_0034547","bkl","histo",90,"male","back","rosendahl",0
+"12","HAMTEST_0000024","ISIC_0034548","mel","histo",60,"male","face","rosendahl",1
+"13","HAMTEST_0000025","ISIC_0034549","vasc","histo",NA,"unknown","unknown","external",0
+"14","HAMTEST_0000029","ISIC_0034554","bcc","histo",85,"male","back","vidir_modern",1
+"15","HAMTEST_0000030","ISIC_0034555","vasc","consensus",75,"male","abdomen","vidir_molemax",0
+"16","HAMTEST_0000036","ISIC_0034561","bkl","confocal",65,"male","face","vidir_modern",0
+"17","HAMTEST_0000040","ISIC_0034565","bcc","histo",65,"male","chest","rosendahl",1
+"18","HAMTEST_0000045","ISIC_0034570","bkl","histo",75,"female","lower extremity","rosendahl",0
+"19","HAMTEST_0000046","ISIC_0034571","bkl","consensus",NA,"unknown","unknown","external",0
+"20","HAMTEST_0000047","ISIC_0034572","mel","histo",55,"male","abdomen","vidir_modern",1
+"21","HAMTEST_0000048","ISIC_0034573","mel","histo",NA,"unknown","unknown","external",1
+"22","HAMTEST_0000049","ISIC_0034574","bkl","histo",65,"female","back","rosendahl",0
+"23","HAMTEST_0000050","ISIC_0034575","bkl","consensus",NA,"unknown","unknown","external",0
+"24","HAMTEST_0000053","ISIC_0034578","bkl","histo",75,"male","back","rosendahl",0
+"25","HAMTEST_0000054","ISIC_0034579","akiec","histo",45,"female","hand","rosendahl",1
+"26","HAMTEST_0000059","ISIC_0034584","mel","histo",60,"male","back","vidir_molemax",1
+"27","HAMTEST_0000060","ISIC_0034585","akiec","histo",65,"male","back","rosendahl",1
+"28","HAMTEST_0000063","ISIC_0034588","bcc","histo",80,"male","back","rosendahl",1
+"29","HAMTEST_0000066","ISIC_0034591","bkl","histo",70,"female","neck","rosendahl",0
+"30","HAMTEST_0000070","ISIC_0034595","mel","histo",70,"female","upper extremity","rosendahl",1
+"31","HAMTEST_0000015","ISIC_0034596","bkl","histo",75,"male","back","vidir_modern",0
+"32","HAMTEST_0000071","ISIC_0034597","df","histo",60,"female","upper extremity","rosendahl",0
+"33","HAMTEST_0000072","ISIC_0034598","bcc","histo",60,"male","back","rosendahl",1
+"34","HAMTEST_0000079","ISIC_0034605","mel","histo",75,"male","back","vidir_modern",1
+"35","HAMTEST_0000080","ISIC_0034606","bcc","histo",NA,"unknown","unknown","external",1
+"36","HAMTEST_0000082","ISIC_0034608","vasc","consensus",55,"male","abdomen","vidir_molemax",0
+"37","HAMTEST_0000086","ISIC_0034612","bcc","histo",55,"female","neck","vidir_modern",1
+"38","HAMTEST_0000088","ISIC_0034614","bkl","consensus",70,"female","neck","vidir_molemax",0
+"39","HAMTEST_0000089","ISIC_0034615","bkl","histo",80,"male","face","rosendahl",0
+"40","HAMTEST_0000092","ISIC_0034618","bkl","histo",55,"male","face","rosendahl",0
+"41","HAMTEST_0000096","ISIC_0034622","bkl","consensus",NA,"unknown","unknown","external",0
+"42","HAMTEST_0000102","ISIC_0034628","mel","histo",75,"male","back","vienna_dias",1
+"43","HAMTEST_0000104","ISIC_0034630","mel","histo",50,"female","lower extremity","vidir_modern",1
+"44","HAMTEST_0000105","ISIC_0034631","bkl","consensus",NA,"unknown","unknown","external",0
+"45","HAMTEST_0000107","ISIC_0034633","mel","histo",50,"male","back","rosendahl",1
+"46","HAMTEST_0000112","ISIC_0034638","mel","histo",70,"female","face","vienna_dias",1
+"47","HAMTEST_0000116","ISIC_0034642","df","histo",NA,"unknown","unknown","external",0
+"48","HAMTEST_0000118","ISIC_0034644","mel","histo",60,"male","abdomen","rosendahl",1
+"49","HAMTEST_0000120","ISIC_0034646","bkl","consensus",NA,"unknown","unknown","external",0
+"50","HAMTEST_0000123","ISIC_0034650","mel","histo",NA,"unknown","unknown","external",1
+"51","HAMTEST_0000124","ISIC_0034651","bkl","consensus",NA,"unknown","unknown","external",0
+"52","HAMTEST_0000125","ISIC_0034652","bkl","consensus",NA,"unknown","unknown","external",0
+"53","HAMTEST_0000128","ISIC_0034655","mel","histo",45,"male","upper extremity","rosendahl",1
+"54","HAMTEST_0000129","ISIC_0034656","bkl","histo",50,"female","upper extremity","rosendahl",0
+"55","HAMTEST_0000059","ISIC_0034657","mel","histo",60,"male","back","vidir_modern",1
+"56","HAMTEST_0000135","ISIC_0034663","bkl","histo",NA,"unknown","unknown","external",0
+"57","HAMTEST_0000138","ISIC_0034666","df","histo",40,"male","upper extremity","vidir_modern",0
+"58","HAMTEST_0000141","ISIC_0034669","akiec","histo",70,"male","hand","rosendahl",1
+"59","HAMTEST_0000145","ISIC_0034675","bkl","consensus",30,"female","chest","vidir_modern",0
+"60","HAMTEST_0000149","ISIC_0034679","bcc","histo",55,"male","upper extremity","rosendahl",1
+"61","HAMTEST_0000152","ISIC_0034682","bcc","histo",75,"female","neck","rosendahl",1
+"62","HAMTEST_0000154","ISIC_0034684","bkl","consensus",75,"male","lower extremity","vidir_molemax",0
+"63","HAMTEST_0000023","ISIC_0034685","bkl","histo",90,"male","back","rosendahl",0
+"64","HAMTEST_0000155","ISIC_0034686","bkl","consensus",60,"female","abdomen","vidir_molemax",0
+"65","HAMTEST_0000156","ISIC_0034687","mel","histo",55,"female","back","rosendahl",1
+"66","HAMTEST_0000160","ISIC_0034691","bkl","consensus",75,"male","back","vidir_molemax",0
+"67","HAMTEST_0000161","ISIC_0034692","bkl","histo",70,"male","lower extremity","rosendahl",0
+"68","HAMTEST_0000162","ISIC_0034693","bkl","consensus",NA,"unknown","unknown","external",0
+"69","HAMTEST_0000163","ISIC_0034694","bkl","consensus",NA,"unknown","unknown","external",0
+"70","HAMTEST_0000164","ISIC_0034695","bcc","histo",70,"male","back","rosendahl",1
+"71","HAMTEST_0000164","ISIC_0034699","bcc","histo",70,"male","back","rosendahl",1
+"72","HAMTEST_0000174","ISIC_0034706","bkl","consensus",55,"male","abdomen","vidir_molemax",0
+"73","HAMTEST_0000178","ISIC_0034710","bkl","histo",65,"male","back","rosendahl",0
+"74","HAMTEST_0000179","ISIC_0034711","bkl","histo",60,"female","chest","rosendahl",0
+"75","HAMTEST_0000180","ISIC_0034712","bcc","histo",60,"female","upper extremity","rosendahl",1
+"76","HAMTEST_0000181","ISIC_0034713","mel","histo",65,"male","back","vidir_modern",1
+"77","HAMTEST_0000182","ISIC_0034714","mel","histo",75,"male","back","rosendahl",1
+"78","HAMTEST_0000187","ISIC_0034719","df","histo",40,"female","back","vidir_modern",0
+"79","HAMTEST_0000188","ISIC_0034720","bkl","histo",85,"male","neck","rosendahl",0
+"80","HAMTEST_0000191","ISIC_0034723","bkl","histo",65,"female","lower extremity","rosendahl",0
+"81","HAMTEST_0000192","ISIC_0034724","bkl","histo",45,"male","upper extremity","vidir_modern",0
+"82","HAMTEST_0000200","ISIC_0034733","akiec","histo",50,"male","face","rosendahl",1
+"83","HAMTEST_0000201","ISIC_0034734","vasc","consensus",NA,"unknown","unknown","external",0
+"84","HAMTEST_0000203","ISIC_0034737","mel","histo",60,"male","back","rosendahl",1
+"85","HAMTEST_0000205","ISIC_0034739","vasc","consensus",50,"female","lower extremity","vidir_molemax",0
+"86","HAMTEST_0000049","ISIC_0034746","bkl","histo",65,"female","back","rosendahl",0
+"87","HAMTEST_0000213","ISIC_0034748","akiec","histo",80,"female","chest","rosendahl",1
+"88","HAMTEST_0000215","ISIC_0034750","bkl","consensus",75,"male","face","vidir_modern",0
+"89","HAMTEST_0000216","ISIC_0034751","bkl","histo",45,"male","upper extremity","vidir_modern",0
+"90","HAMTEST_0000218","ISIC_0034753","akiec","histo",70,"female","face","rosendahl",1
+"91","HAMTEST_0000220","ISIC_0034755","bkl","histo",70,"male","trunk","vidir_modern",0
+"92","HAMTEST_0000223","ISIC_0034758","bkl","histo",50,"female","lower extremity","vidir_modern",0
+"93","HAMTEST_0000224","ISIC_0034759","bcc","histo",80,"male","face","rosendahl",1
+"94","HAMTEST_0000225","ISIC_0034760","bcc","histo",70,"male","lower extremity","vidir_modern",1
+"95","HAMTEST_0000229","ISIC_0034764","mel","histo",85,"male","upper extremity","rosendahl",1
+"96","HAMTEST_0000231","ISIC_0034766","df","consensus",NA,"unknown","unknown","external",0
+"97","HAMTEST_0000235","ISIC_0034770","bkl","consensus",50,"male","face","vidir_modern",0
+"98","HAMTEST_0000236","ISIC_0034771","mel","histo",55,"female","back","rosendahl",1
+"99","HAMTEST_0000246","ISIC_0034782","bkl","histo",55,"female","back","rosendahl",0
+"100","HAMTEST_0000248","ISIC_0034784","mel","histo",55,"male","back","rosendahl",1
+"101","HAMTEST_0000220","ISIC_0034785","bkl","histo",70,"male","trunk","vidir_modern",0
+"102","HAMTEST_0000257","ISIC_0034794","bkl","consensus",75,"female","lower extremity","vidir_molemax",0
+"103","HAMTEST_0000066","ISIC_0034802","bkl","histo",70,"female","neck","rosendahl",0
+"104","HAMTEST_0000264","ISIC_0034804","mel","histo",40,"female","abdomen","vidir_modern",1
+"105","HAMTEST_0000265","ISIC_0034805","vasc","consensus",NA,"unknown","unknown","external",0
+"106","HAMTEST_0000272","ISIC_0034812","bkl","consensus",50,"male","abdomen","vidir_molemax",0
+"107","HAMTEST_0000274","ISIC_0034814","vasc","consensus",NA,"unknown","unknown","external",0
+"108","HAMTEST_0000277","ISIC_0034817","mel","histo",NA,"unknown","unknown","external",1
+"109","HAMTEST_0000279","ISIC_0034819","mel","histo",NA,"unknown","unknown","external",1
+"110","HAMTEST_0000280","ISIC_0034820","df","consensus",NA,"unknown","unknown","external",0
+"111","HAMTEST_0000282","ISIC_0034822","vasc","histo",40,"female","lower extremity","vidir_modern",0
+"112","HAMTEST_0000285","ISIC_0034825","bkl","histo",55,"male","upper extremity","vidir_modern",0
+"113","HAMTEST_0000286","ISIC_0034826","bkl","consensus",45,"female","upper extremity","vidir_molemax",0
+"114","HAMTEST_0000021","ISIC_0034833","bcc","histo",50,"female","upper extremity","vidir_modern",1
+"115","HAMTEST_0000191","ISIC_0034840","bkl","histo",65,"female","lower extremity","rosendahl",0
+"116","HAMTEST_0000298","ISIC_0034842","bkl","histo",80,"male","face","rosendahl",0
+"117","HAMTEST_0000305","ISIC_0034849","bkl","histo",80,"male","lower extremity","rosendahl",0
+"118","HAMTEST_0000306","ISIC_0034850","bkl","consensus",NA,"unknown","unknown","external",0
+"119","HAMTEST_0000313","ISIC_0034858","vasc","consensus",NA,"unknown","unknown","external",0
+"120","HAMTEST_0000314","ISIC_0034859","mel","histo",65,"female","face","rosendahl",1
+"121","HAMTEST_0000318","ISIC_0034863","mel","histo",70,"male","upper extremity","rosendahl",1
+"122","HAMTEST_0000325","ISIC_0034870","akiec","histo",80,"male","upper extremity","rosendahl",1
+"123","HAMTEST_0000248","ISIC_0034871","mel","histo",55,"male","back","rosendahl",1
+"124","HAMTEST_0000327","ISIC_0034873","mel","histo",45,"female","upper extremity","rosendahl",1
+"125","HAMTEST_0000328","ISIC_0034874","mel","histo",70,"female","face","rosendahl",1
+"126","HAMTEST_0000329","ISIC_0034875","mel","histo",55,"male","upper extremity","rosendahl",1
+"127","HAMTEST_0000330","ISIC_0034876","df","consensus",NA,"unknown","unknown","external",0
+"128","HAMTEST_0000029","ISIC_0034879","bcc","histo",85,"male","back","vidir_modern",1
+"129","HAMTEST_0000335","ISIC_0034882","mel","histo",60,"female","lower extremity","rosendahl",1
+"130","HAMTEST_0000339","ISIC_0034887","vasc","histo",55,"male","trunk","vidir_modern",0
+"131","HAMTEST_0000340","ISIC_0034888","bcc","histo",55,"female","back","rosendahl",1
+"132","HAMTEST_0000342","ISIC_0034891","bcc","histo",60,"male","chest","rosendahl",1
+"133","HAMTEST_0000346","ISIC_0034895","mel","histo",40,"male","upper extremity","rosendahl",1
+"134","HAMTEST_0000347","ISIC_0034896","vasc","consensus",NA,"unknown","unknown","external",0
+"135","HAMTEST_0000349","ISIC_0034898","akiec","histo",80,"male","face","rosendahl",1
+"136","HAMTEST_0000350","ISIC_0034899","bcc","histo",NA,"unknown","unknown","external",1
+"137","HAMTEST_0000355","ISIC_0034904","mel","histo",40,"female","chest","rosendahl",1
+"138","HAMTEST_0000356","ISIC_0034905","vasc","histo",NA,"unknown","unknown","external",0
+"139","HAMTEST_0000357","ISIC_0034906","akiec","histo",70,"male","back","rosendahl",1
+"140","HAMTEST_0000361","ISIC_0034910","bcc","histo",NA,"unknown","unknown","external",1
+"141","HAMTEST_0000362","ISIC_0034911","vasc","consensus",50,"male","trunk","vidir_molemax",0
+"142","HAMTEST_0000223","ISIC_0034914","bkl","histo",50,"female","lower extremity","vidir_modern",0
+"143","HAMTEST_0000365","ISIC_0034915","bkl","histo",60,"female","back","rosendahl",0
+"144","HAMTEST_0000059","ISIC_0034918","mel","histo",60,"male","back","vidir_modern",1
+"145","HAMTEST_0000374","ISIC_0034926","mel","histo",85,"female","lower extremity","vidir_modern",1
+"146","HAMTEST_0000377","ISIC_0034930","bkl","consensus",NA,"unknown","unknown","external",0
+"147","HAMTEST_0000365","ISIC_0034931","bkl","histo",60,"female","back","rosendahl",0
+"148","HAMTEST_0000380","ISIC_0034934","mel","histo",75,"male","ear","vidir_modern",1
+"149","HAMTEST_0000382","ISIC_0034936","bcc","histo",50,"female","back","rosendahl",1
+"150","HAMTEST_0000383","ISIC_0034937","vasc","consensus",80,"male","scalp","vidir_molemax",0
+"151","HAMTEST_0000385","ISIC_0034939","bkl","histo",75,"male","face","rosendahl",0
+"152","HAMTEST_0000392","ISIC_0034946","bcc","histo",80,"male","back","rosendahl",1
+"153","HAMTEST_0000394","ISIC_0034948","bkl","histo",75,"male","back","rosendahl",0
+"154","HAMTEST_0000395","ISIC_0034949","mel","histo",NA,"unknown","unknown","external",1
+"155","HAMTEST_0000397","ISIC_0034951","vasc","consensus",NA,"unknown","unknown","external",0
+"156","HAMTEST_0000398","ISIC_0034952","bcc","histo",85,"male","lower extremity","rosendahl",1
+"157","HAMTEST_0000399","ISIC_0034953","bkl","consensus",NA,"unknown","unknown","external",0
+"158","HAMTEST_0000400","ISIC_0034954","vasc","consensus",55,"female","abdomen","vidir_molemax",0
+"159","HAMTEST_0000329","ISIC_0034957","mel","histo",55,"male","upper extremity","rosendahl",1
+"160","HAMTEST_0000403","ISIC_0034958","mel","histo",70,"male","back","rosendahl",1
+"161","HAMTEST_0000404","ISIC_0034959","mel","histo",NA,"unknown","unknown","external",1
+"162","HAMTEST_0000405","ISIC_0034960","bcc","histo",NA,"unknown","unknown","external",1
+"163","HAMTEST_0000406","ISIC_0034961","akiec","histo",80,"male","back","rosendahl",1
+"164","HAMTEST_0000040","ISIC_0034966","bcc","histo",65,"male","chest","rosendahl",1
+"165","HAMTEST_0000411","ISIC_0034970","akiec","histo",70,"male","lower extremity","rosendahl",1
+"166","HAMTEST_0000412","ISIC_0034971","mel","histo",55,"male","back","vidir_modern",1
+"167","HAMTEST_0000413","ISIC_0034972","bkl","histo",70,"female","back","rosendahl",0
+"168","HAMTEST_0000421","ISIC_0034980","bkl","consensus",50,"male","face","vidir_modern",0
+"169","HAMTEST_0000422","ISIC_0034982","akiec","histo",70,"male","lower extremity","rosendahl",1
+"170","HAMTEST_0000427","ISIC_0034987","bkl","consensus",80,"female","face","vidir_modern",0
+"171","HAMTEST_0000182","ISIC_0034988","mel","histo",75,"male","back","rosendahl",1
+"172","HAMTEST_0000220","ISIC_0034993","bkl","histo",70,"male","trunk","vidir_modern",0
+"173","HAMTEST_0000432","ISIC_0034994","bkl","histo",50,"male","trunk","vidir_modern",0
+"174","HAMTEST_0000433","ISIC_0034995","bcc","histo",NA,"unknown","unknown","external",1
+"175","HAMTEST_0000435","ISIC_0034997","bkl","consensus",NA,"unknown","unknown","external",0
+"176","HAMTEST_0000436","ISIC_0034998","mel","histo",60,"male","ear","vidir_modern",1
+"177","HAMTEST_0000437","ISIC_0034999","bkl","histo",NA,"unknown","unknown","external",0
+"178","HAMTEST_0000318","ISIC_0035000","mel","histo",70,"male","upper extremity","rosendahl",1
+"179","HAMTEST_0000438","ISIC_0035001","akiec","histo",55,"male","face","rosendahl",1
+"180","HAMTEST_0000441","ISIC_0035004","bkl","consensus",NA,"unknown","unknown","external",0
+"181","HAMTEST_0000325","ISIC_0035008","akiec","histo",80,"male","upper extremity","rosendahl",1
+"182","HAMTEST_0000446","ISIC_0035010","bkl","confocal",80,"female","face","vidir_modern",0
+"183","HAMTEST_0000448","ISIC_0035012","df","consensus",NA,"unknown","unknown","external",0
+"184","HAMTEST_0000454","ISIC_0035018","bkl","confocal",80,"female","face","vidir_modern",0
+"185","HAMTEST_0000457","ISIC_0035021","mel","histo",35,"male","back","rosendahl",1
+"186","HAMTEST_0000040","ISIC_0035026","bcc","histo",65,"male","chest","rosendahl",1
+"187","HAMTEST_0000462","ISIC_0035028","bkl","histo",70,"male","lower extremity","rosendahl",0
+"188","HAMTEST_0000463","ISIC_0035029","akiec","histo",85,"female","neck","rosendahl",1
+"189","HAMTEST_0000466","ISIC_0035032","bkl","histo",65,"male","back","rosendahl",0
+"190","HAMTEST_0000467","ISIC_0035033","bcc","histo",75,"male","scalp","vidir_modern",1
+"191","HAMTEST_0000469","ISIC_0035035","bkl","histo",55,"female","chest","vidir_modern",0
+"192","HAMTEST_0000471","ISIC_0035037","bkl","consensus",65,"female","trunk","vidir_molemax",0
+"193","HAMTEST_0000446","ISIC_0035039","bkl","confocal",80,"female","face","vidir_modern",0
+"194","HAMTEST_0000215","ISIC_0035040","bkl","consensus",75,"male","face","vidir_modern",0
+"195","HAMTEST_0000472","ISIC_0035041","bcc","histo",75,"male","upper extremity","rosendahl",1
+"196","HAMTEST_0000473","ISIC_0035042","df","histo",NA,"unknown","unknown","external",0
+"197","HAMTEST_0000474","ISIC_0035043","bkl","consensus",75,"male","lower extremity","vidir_molemax",0
+"198","HAMTEST_0000070","ISIC_0035047","mel","histo",70,"female","upper extremity","rosendahl",1
+"199","HAMTEST_0000478","ISIC_0035048","mel","histo",55,"female","face","rosendahl",1
+"200","HAMTEST_0000484","ISIC_0035054","df","consensus",NA,"unknown","unknown","external",0
+"201","HAMTEST_0000454","ISIC_0035057","bkl","confocal",80,"female","face","vidir_modern",0
+"202","HAMTEST_0000492","ISIC_0035064","df","consensus",35,"female","lower extremity","vidir_molemax",0
+"203","HAMTEST_0000497","ISIC_0035070","mel","histo",35,"female","upper extremity","rosendahl",1
+"204","HAMTEST_0000499","ISIC_0035072","bcc","histo",75,"male","face","vidir_modern",1
+"205","HAMTEST_0000502","ISIC_0035075","bkl","consensus",5,"male","lower extremity","vidir_molemax",0
+"206","HAMTEST_0000503","ISIC_0035076","bkl","histo",45,"male","upper extremity","rosendahl",0
+"207","HAMTEST_0000505","ISIC_0035078","akiec","histo",50,"male","upper extremity","rosendahl",1
+"208","HAMTEST_0000508","ISIC_0035081","mel","histo",60,"female","ear","vienna_dias",1
+"209","HAMTEST_0000516","ISIC_0035089","mel","histo",60,"male","back","vidir_modern",1
+"210","HAMTEST_0000516","ISIC_0035090","mel","histo",60,"male","back","vidir_modern",1
+"211","HAMTEST_0000520","ISIC_0035095","bkl","histo",NA,"unknown","unknown","external",0
+"212","HAMTEST_0000524","ISIC_0035099","mel","histo",75,"male","back","vidir_modern",1
+"213","HAMTEST_0000528","ISIC_0035104","bkl","consensus",75,"male","trunk","vidir_molemax",0
+"214","HAMTEST_0000529","ISIC_0035106","bcc","histo",70,"male","chest","rosendahl",1
+"215","HAMTEST_0000365","ISIC_0035109","bkl","histo",60,"female","back","rosendahl",0
+"216","HAMTEST_0000129","ISIC_0035110","bkl","histo",50,"female","upper extremity","rosendahl",0
+"217","HAMTEST_0000533","ISIC_0035112","bcc","histo",65,"male","chest","rosendahl",1
+"218","HAMTEST_0000536","ISIC_0035115","bkl","consensus",60,"female","lower extremity","vidir_molemax",0
+"219","HAMTEST_0000463","ISIC_0035117","akiec","histo",85,"female","neck","rosendahl",1
+"220","HAMTEST_0000014","ISIC_0035119","akiec","histo",50,"male","face","rosendahl",1
+"221","HAMTEST_0000539","ISIC_0035120","bcc","histo",50,"male","neck","vidir_modern",1
+"222","HAMTEST_0000335","ISIC_0035124","mel","histo",60,"female","lower extremity","rosendahl",1
+"223","HAMTEST_0000543","ISIC_0035125","bkl","consensus",NA,"unknown","unknown","external",0
+"224","HAMTEST_0000545","ISIC_0035127","bkl","histo",70,"male","abdomen","vidir_modern",0
+"225","HAMTEST_0000546","ISIC_0035128","akiec","histo",80,"male","lower extremity","rosendahl",1
+"226","HAMTEST_0000547","ISIC_0035130","mel","histo",65,"female","foot","vidir_modern",1
+"227","HAMTEST_0000427","ISIC_0035131","bkl","consensus",80,"female","face","vidir_modern",0
+"228","HAMTEST_0000145","ISIC_0035136","bkl","consensus",30,"female","chest","vidir_modern",0
+"229","HAMTEST_0000118","ISIC_0035139","mel","histo",60,"male","abdomen","rosendahl",1
+"230","HAMTEST_0000092","ISIC_0035142","bkl","histo",55,"male","face","rosendahl",0
+"231","HAMTEST_0000558","ISIC_0035147","df","consensus",NA,"unknown","unknown","external",0
+"232","HAMTEST_0000560","ISIC_0035149","akiec","histo",85,"female","face","rosendahl",1
+"233","HAMTEST_0000562","ISIC_0035151","bkl","consensus",NA,"unknown","unknown","external",0
+"234","HAMTEST_0000565","ISIC_0035154","bkl","consensus",NA,"unknown","unknown","external",0
+"235","HAMTEST_0000566","ISIC_0035155","bkl","consensus",NA,"unknown","unknown","external",0
+"236","HAMTEST_0000572","ISIC_0035163","bkl","consensus",NA,"unknown","unknown","external",0
+"237","HAMTEST_0000576","ISIC_0035168","bkl","consensus",75,"male","abdomen","vidir_molemax",0
+"238","HAMTEST_0000579","ISIC_0035171","bcc","histo",NA,"unknown","unknown","external",1
+"239","HAMTEST_0000584","ISIC_0035177","mel","histo",NA,"unknown","unknown","external",1
+"240","HAMTEST_0000586","ISIC_0035179","bkl","histo",80,"female","lower extremity","rosendahl",0
+"241","HAMTEST_0000587","ISIC_0035180","bkl","consensus",NA,"unknown","unknown","external",0
+"242","HAMTEST_0000591","ISIC_0035185","bkl","consensus",NA,"unknown","unknown","external",0
+"243","HAMTEST_0000053","ISIC_0035190","bkl","histo",75,"male","back","rosendahl",0
+"244","HAMTEST_0000599","ISIC_0035194","vasc","consensus",NA,"unknown","unknown","external",0
+"245","HAMTEST_0000601","ISIC_0035196","mel","histo",NA,"unknown","unknown","external",1
+"246","HAMTEST_0000607","ISIC_0035202","bcc","histo",45,"male","face","vienna_dias",1
+"247","HAMTEST_0000610","ISIC_0035206","vasc","consensus",NA,"unknown","unknown","external",0
+"248","HAMTEST_0000611","ISIC_0035207","mel","histo",60,"female","scalp","vidir_modern",1
+"249","HAMTEST_0000614","ISIC_0035210","akiec","histo",70,"female","lower extremity","rosendahl",1
+"250","HAMTEST_0000421","ISIC_0035212","bkl","consensus",50,"male","face","vidir_modern",0
+"251","HAMTEST_0000619","ISIC_0035216","mel","histo",70,"male","face","vidir_modern",1
+"252","HAMTEST_0000620","ISIC_0035218","bkl","histo",45,"male","abdomen","rosendahl",0
+"253","HAMTEST_0000181","ISIC_0035224","mel","histo",65,"male","back","vidir_modern",1
+"254","HAMTEST_0000626","ISIC_0035226","vasc","consensus",NA,"unknown","unknown","external",0
+"255","HAMTEST_0000156","ISIC_0035229","mel","histo",55,"female","back","rosendahl",1
+"256","HAMTEST_0000631","ISIC_0035232","mel","histo",80,"female","chest","rosendahl",1
+"257","HAMTEST_0000636","ISIC_0035239","df","consensus",NA,"unknown","unknown","external",0
+"258","HAMTEST_0000380","ISIC_0035240","mel","histo",75,"male","ear","vidir_modern",1
+"259","HAMTEST_0000638","ISIC_0035243","bkl","histo",80,"male","back","rosendahl",0
+"260","HAMTEST_0000282","ISIC_0035247","vasc","histo",40,"female","lower extremity","vidir_modern",0
+"261","HAMTEST_0000314","ISIC_0035248","mel","histo",65,"female","face","rosendahl",1
+"262","HAMTEST_0000642","ISIC_0035254","bcc","histo",65,"male","neck","rosendahl",1
+"263","HAMTEST_0000646","ISIC_0035258","bkl","confocal",85,"male","face","vidir_modern",0
+"264","HAMTEST_0000647","ISIC_0035259","df","histo",NA,"unknown","unknown","external",0
+"265","HAMTEST_0000649","ISIC_0035261","bkl","consensus",70,"female","upper extremity","vidir_molemax",0
+"266","HAMTEST_0000086","ISIC_0035262","bcc","histo",55,"female","neck","vidir_modern",1
+"267","HAMTEST_0000650","ISIC_0035263","mel","histo",NA,"unknown","unknown","external",1
+"268","HAMTEST_0000298","ISIC_0035264","bkl","histo",80,"male","face","rosendahl",0
+"269","HAMTEST_0000654","ISIC_0035270","bkl","histo",70,"male","face","vidir_modern",0
+"270","HAMTEST_0000346","ISIC_0035271","mel","histo",40,"male","upper extremity","rosendahl",1
+"271","HAMTEST_0000138","ISIC_0035276","df","histo",40,"male","upper extremity","vidir_modern",0
+"272","HAMTEST_0000659","ISIC_0035277","bkl","histo",65,"male","back","rosendahl",0
+"273","HAMTEST_0000661","ISIC_0035280","mel","histo",70,"male","lower extremity","rosendahl",1
+"274","HAMTEST_0000129","ISIC_0035284","bkl","histo",50,"female","upper extremity","rosendahl",0
+"275","HAMTEST_0000218","ISIC_0035287","akiec","histo",70,"female","face","rosendahl",1
+"276","HAMTEST_0000670","ISIC_0035291","bcc","histo",45,"male","lower extremity","rosendahl",1
+"277","HAMTEST_0000672","ISIC_0035293","bkl","histo",60,"male","back","rosendahl",0
+"278","HAMTEST_0000682","ISIC_0035305","bcc","histo",55,"female","face","vidir_modern",1
+"279","HAMTEST_0000683","ISIC_0035306","mel","histo",85,"male","chest","rosendahl",1
+"280","HAMTEST_0000642","ISIC_0035308","bcc","histo",65,"male","neck","rosendahl",1
+"281","HAMTEST_0000467","ISIC_0035310","bcc","histo",75,"male","scalp","vidir_modern",1
+"282","HAMTEST_0000688","ISIC_0035313","mel","histo",65,"male","chest","rosendahl",1
+"283","HAMTEST_0000691","ISIC_0035316","bkl","histo",75,"male","back","rosendahl",0
+"284","HAMTEST_0000692","ISIC_0035317","akiec","histo",75,"male","chest","rosendahl",1
+"285","HAMTEST_0000191","ISIC_0035318","bkl","histo",65,"female","lower extremity","rosendahl",0
+"286","HAMTEST_0000659","ISIC_0035321","bkl","histo",65,"male","back","rosendahl",0
+"287","HAMTEST_0000499","ISIC_0035322","bcc","histo",75,"male","face","vidir_modern",1
+"288","HAMTEST_0000314","ISIC_0035326","mel","histo",65,"female","face","rosendahl",1
+"289","HAMTEST_0000699","ISIC_0035330","akiec","histo",NA,"unknown","unknown","external",1
+"290","HAMTEST_0000586","ISIC_0035331","bkl","histo",80,"female","lower extremity","rosendahl",0
+"291","HAMTEST_0000072","ISIC_0035332","bcc","histo",60,"male","back","rosendahl",1
+"292","HAMTEST_0000701","ISIC_0035334","bcc","histo",NA,"unknown","unknown","external",1
+"293","HAMTEST_0000705","ISIC_0035338","df","consensus",60,"female","lower extremity","vidir_molemax",0
+"294","HAMTEST_0000707","ISIC_0035340","bkl","histo",65,"male","upper extremity","rosendahl",0
+"295","HAMTEST_0000712","ISIC_0035345","mel","histo",50,"male","upper extremity","vidir_modern",1
+"296","HAMTEST_0000200","ISIC_0035348","akiec","histo",50,"male","face","rosendahl",1
+"297","HAMTEST_0000024","ISIC_0035351","mel","histo",60,"male","face","rosendahl",1
+"298","HAMTEST_0000720","ISIC_0035355","bcc","histo",80,"female","face","vidir_modern",1
+"299","HAMTEST_0000721","ISIC_0035357","bcc","histo",65,"male","chest","rosendahl",1
+"300","HAMTEST_0000724","ISIC_0035360","df","consensus",45,"female","lower extremity","vidir_molemax",0
+"301","HAMTEST_0000619","ISIC_0035362","mel","histo",70,"male","face","vidir_modern",1
+"302","HAMTEST_0000727","ISIC_0035364","bkl","histo",60,"female","face","rosendahl",0
+"303","HAMTEST_0000661","ISIC_0035366","mel","histo",70,"male","lower extremity","rosendahl",1
+"304","HAMTEST_0000730","ISIC_0035368","akiec","histo",65,"male","chest","rosendahl",1
+"305","HAMTEST_0000218","ISIC_0035372","akiec","histo",70,"female","face","rosendahl",1
+"306","HAMTEST_0000733","ISIC_0035374","bcc","histo",NA,"unknown","unknown","external",1
+"307","HAMTEST_0000735","ISIC_0035376","akiec","histo",60,"male","neck","rosendahl",1
+"308","HAMTEST_0000745","ISIC_0035388","bkl","consensus",NA,"unknown","unknown","external",0
+"309","HAMTEST_0000746","ISIC_0035389","bcc","histo",70,"male","lower extremity","rosendahl",1
+"310","HAMTEST_0000469","ISIC_0035391","bkl","histo",55,"female","chest","vidir_modern",0
+"311","HAMTEST_0000749","ISIC_0035393","mel","histo",80,"male","back","rosendahl",1
+"312","HAMTEST_0000753","ISIC_0035397","mel","histo",80,"male","scalp","vidir_modern",1
+"313","HAMTEST_0000413","ISIC_0035403","bkl","histo",70,"female","back","rosendahl",0
+"314","HAMTEST_0000104","ISIC_0035406","mel","histo",50,"female","lower extremity","vidir_modern",1
+"315","HAMTEST_0000766","ISIC_0035414","mel","histo",45,"male","back","rosendahl",1
+"316","HAMTEST_0000720","ISIC_0035415","bcc","histo",80,"female","face","vidir_modern",1
+"317","HAMTEST_0000767","ISIC_0035416","bkl","consensus",50,"female","back","vidir_molemax",0
+"318","HAMTEST_0000412","ISIC_0035420","mel","histo",55,"male","back","vidir_modern",1
+"319","HAMTEST_0000406","ISIC_0035421","akiec","histo",80,"male","back","rosendahl",1
+"320","HAMTEST_0000203","ISIC_0035430","mel","histo",60,"male","back","rosendahl",1
+"321","HAMTEST_0000539","ISIC_0035432","bcc","histo",50,"male","neck","vidir_modern",1
+"322","HAMTEST_0000777","ISIC_0035434","mel","histo",NA,"unknown","unknown","external",1
+"323","HAMTEST_0000691","ISIC_0035436","bkl","histo",75,"male","back","rosendahl",0
+"324","HAMTEST_0000781","ISIC_0035439","df","consensus",NA,"unknown","unknown","external",0
+"325","HAMTEST_0000782","ISIC_0035440","df","histo",NA,"unknown","unknown","external",0
+"326","HAMTEST_0000785","ISIC_0035443","akiec","histo",60,"female","lower extremity","rosendahl",1
+"327","HAMTEST_0000787","ISIC_0035446","bcc","histo",40,"male","upper extremity","vidir_modern",1
+"328","HAMTEST_0000225","ISIC_0035450","bcc","histo",70,"male","lower extremity","vidir_modern",1
+"329","HAMTEST_0000790","ISIC_0035451","bkl","histo",75,"female","trunk","vidir_molemax",0
+"330","HAMTEST_0000793","ISIC_0035454","df","consensus",NA,"unknown","unknown","external",0
+"331","HAMTEST_0000079","ISIC_0035459","mel","histo",75,"male","back","vidir_modern",1
+"332","HAMTEST_0000766","ISIC_0035460","mel","histo",45,"male","back","rosendahl",1
+"333","HAMTEST_0000796","ISIC_0035462","mel","histo",75,"female","back","rosendahl",1
+"334","HAMTEST_0000797","ISIC_0035463","bkl","histo",65,"male","back","rosendahl",0
+"335","HAMTEST_0000798","ISIC_0035464","bkl","consensus",NA,"unknown","unknown","external",0
+"336","HAMTEST_0000799","ISIC_0035466","bkl","histo",80,"female","lower extremity","rosendahl",0
+"337","HAMTEST_0000787","ISIC_0035468","bcc","histo",40,"male","upper extremity","vidir_modern",1
+"338","HAMTEST_0000803","ISIC_0035471","bkl","consensus",NA,"unknown","unknown","external",0
+"339","HAMTEST_0000804","ISIC_0035472","bkl","histo",60,"male","chest","rosendahl",0
+"340","HAMTEST_0000807","ISIC_0035475","vasc","consensus",55,"male","back","vidir_molemax",0
+"341","HAMTEST_0000683","ISIC_0035478","mel","histo",85,"male","chest","rosendahl",1
+"342","HAMTEST_0000047","ISIC_0035486","mel","histo",55,"male","abdomen","vidir_modern",1
+"343","HAMTEST_0000815","ISIC_0035487","bkl","histo",65,"male","chest","rosendahl",0
+"344","HAMTEST_0000817","ISIC_0035490","bcc","histo",65,"male","back","rosendahl",1
+"345","HAMTEST_0000828","ISIC_0035504","bkl","histo",55,"female","lower extremity","rosendahl",0
+"346","HAMTEST_0000374","ISIC_0035505","mel","histo",85,"female","lower extremity","vidir_modern",1
+"347","HAMTEST_0000833","ISIC_0035510","mel","histo",NA,"unknown","unknown","external",1
+"348","HAMTEST_0000285","ISIC_0035511","bkl","histo",55,"male","upper extremity","vidir_modern",0
+"349","HAMTEST_0000298","ISIC_0035517","bkl","histo",80,"male","face","rosendahl",0
+"350","HAMTEST_0000712","ISIC_0035522","mel","histo",50,"male","upper extremity","vidir_modern",1
+"351","HAMTEST_0000841","ISIC_0035525","mel","histo",55,"male","back","rosendahl",1
+"352","HAMTEST_0000847","ISIC_0035533","bkl","consensus",NA,"unknown","unknown","external",0
+"353","HAMTEST_0000852","ISIC_0035538","bkl","histo",85,"female","unknown","rosendahl",0
+"354","HAMTEST_0000860","ISIC_0035547","bcc","histo",70,"male","back","rosendahl",1
+"355","HAMTEST_0000753","ISIC_0035550","mel","histo",80,"male","scalp","vidir_modern",1
+"356","HAMTEST_0000863","ISIC_0035552","df","consensus",5,"male","lower extremity","vidir_molemax",0
+"357","HAMTEST_0000864","ISIC_0035553","akiec","histo",NA,"unknown","unknown","external",1
+"358","HAMTEST_0000866","ISIC_0035556","bkl","consensus",NA,"unknown","unknown","external",0
+"359","HAMTEST_0000868","ISIC_0035558","mel","histo",NA,"unknown","unknown","external",1
+"360","HAMTEST_0000436","ISIC_0035561","mel","histo",60,"male","ear","vidir_modern",1
+"361","HAMTEST_0000871","ISIC_0035562","mel","histo",60,"male","back","rosendahl",1
+"362","HAMTEST_0000873","ISIC_0035564","bkl","consensus",NA,"unknown","unknown","external",0
+"363","HAMTEST_0000036","ISIC_0035570","bkl","confocal",65,"male","face","vidir_modern",0
+"364","HAMTEST_0000888","ISIC_0035584","bkl","histo",65,"male","upper extremity","rosendahl",0
+"365","HAMTEST_0000889","ISIC_0035585","bcc","histo",70,"male","neck","rosendahl",1
+"366","HAMTEST_0000890","ISIC_0035586","bcc","histo",NA,"unknown","unknown","external",1
+"367","HAMTEST_0000892","ISIC_0035588","df","histo",NA,"unknown","unknown","external",0
+"368","HAMTEST_0000192","ISIC_0035589","bkl","histo",45,"male","upper extremity","vidir_modern",0
+"369","HAMTEST_0000469","ISIC_0035590","bkl","histo",55,"female","chest","vidir_modern",0
+"370","HAMTEST_0000894","ISIC_0035593","bkl","consensus",NA,"unknown","unknown","external",0
+"371","HAMTEST_0000895","ISIC_0035594","bcc","histo",NA,"unknown","unknown","external",1
+"372","HAMTEST_0000898","ISIC_0035599","vasc","histo",20,"male","upper extremity","vidir_modern",0
+"373","HAMTEST_0000901","ISIC_0035602","mel","histo",45,"male","face","rosendahl",1
+"374","HAMTEST_0000902","ISIC_0035603","vasc","consensus",50,"male","abdomen","vidir_molemax",0
+"375","HAMTEST_0000904","ISIC_0035605","mel","histo",75,"female","foot","rosendahl",1
+"376","HAMTEST_0000905","ISIC_0035606","mel","histo",55,"male","face","rosendahl",1
+"377","HAMTEST_0000145","ISIC_0035607","bkl","consensus",30,"female","chest","vidir_modern",0
+"378","HAMTEST_0000906","ISIC_0035608","akiec","histo",50,"male","face","rosendahl",1
+"379","HAMTEST_0000908","ISIC_0035610","mel","histo",NA,"unknown","unknown","external",1
+"380","HAMTEST_0000654","ISIC_0035612","bkl","histo",70,"male","face","vidir_modern",0
+"381","HAMTEST_0000235","ISIC_0035613","bkl","consensus",50,"male","face","vidir_modern",0
+"382","HAMTEST_0000914","ISIC_0035619","bkl","consensus",45,"male","trunk","vidir_molemax",0
+"383","HAMTEST_0000916","ISIC_0035622","df","consensus",NA,"unknown","unknown","external",0
+"384","HAMTEST_0000918","ISIC_0035624","bkl","consensus",NA,"unknown","unknown","external",0
+"385","HAMTEST_0000642","ISIC_0035625","bcc","histo",65,"male","neck","rosendahl",1
+"386","HAMTEST_0000919","ISIC_0035626","akiec","histo",55,"male","chest","rosendahl",1
+"387","HAMTEST_0000920","ISIC_0035627","bkl","histo",60,"male","face","rosendahl",0
+"388","HAMTEST_0000904","ISIC_0035629","mel","histo",75,"female","foot","rosendahl",1
+"389","HAMTEST_0000438","ISIC_0035630","akiec","histo",55,"male","face","rosendahl",1
+"390","HAMTEST_0000216","ISIC_0035631","bkl","histo",45,"male","upper extremity","vidir_modern",0
+"391","HAMTEST_0000339","ISIC_0035633","vasc","histo",55,"male","trunk","vidir_modern",0
+"392","HAMTEST_0000432","ISIC_0035634","bkl","histo",50,"male","trunk","vidir_modern",0
+"393","HAMTEST_0000923","ISIC_0035635","bkl","consensus",80,"male","trunk","vidir_molemax",0
+"394","HAMTEST_0000497","ISIC_0035636","mel","histo",35,"female","upper extremity","rosendahl",1
+"395","HAMTEST_0000329","ISIC_0035637","mel","histo",55,"male","upper extremity","rosendahl",1
+"396","HAMTEST_0000796","ISIC_0035640","mel","histo",75,"female","back","rosendahl",1
+"397","HAMTEST_0000692","ISIC_0035642","akiec","histo",75,"male","chest","rosendahl",1
+"398","HAMTEST_0000926","ISIC_0035643","akiec","histo",NA,"unknown","unknown","external",1
+"399","HAMTEST_0000049","ISIC_0035645","bkl","histo",65,"female","back","rosendahl",0
+"400","HAMTEST_0000931","ISIC_0035650","df","histo",NA,"unknown","unknown","external",0
+"401","HAMTEST_0000932","ISIC_0035651","mel","histo",65,"female","lower extremity","vidir_modern",1
+"402","HAMTEST_0000934","ISIC_0035653","mel","histo",75,"male","unknown","external",1
+"403","HAMTEST_0000936","ISIC_0035655","bkl","consensus",NA,"unknown","unknown","external",0
+"404","HAMTEST_0000939","ISIC_0035658","bcc","histo",NA,"unknown","unknown","external",1
+"405","HAMTEST_0000941","ISIC_0035660","bcc","histo",80,"female","unknown","external",1
+"406","HAMTEST_0000942","ISIC_0035661","bkl","consensus",25,"female","face","vidir_modern",0
+"407","HAMTEST_0000944","ISIC_0035663","mel","histo",65,"male","back","vidir_modern",1
+"408","HAMTEST_0000945","ISIC_0035664","bkl","consensus",50,"male","unknown","external",0
+"409","HAMTEST_0000948","ISIC_0035667","bcc","histo",NA,"unknown","unknown","external",1
+"410","HAMTEST_0000950","ISIC_0035669","bkl","histo",15,"female","back","vidir_modern",0
+"411","HAMTEST_0000951","ISIC_0035670","mel","histo",NA,"unknown","unknown","external",1
+"412","HAMTEST_0000956","ISIC_0035675","df","consensus",NA,"unknown","unknown","external",0
+"413","HAMTEST_0000957","ISIC_0035676","bkl","histo",NA,"unknown","unknown","external",0
+"414","HAMTEST_0000958","ISIC_0035677","df","histo",35,"male","unknown","external",0
+"415","HAMTEST_0000959","ISIC_0035679","bkl","histo",NA,"unknown","unknown","external",0
+"416","HAMTEST_0000547","ISIC_0035680","mel","histo",65,"female","foot","vidir_modern",1
+"417","HAMTEST_0000960","ISIC_0035682","mel","histo",45,"female","back","vidir_modern",1
+"418","HAMTEST_0000961","ISIC_0035683","bcc","histo",NA,"unknown","unknown","external",1
+"419","HAMTEST_0000963","ISIC_0035685","df","consensus",50,"female","unknown","external",0
+"420","HAMTEST_0000968","ISIC_0035690","mel","histo",60,"male","lower extremity","vidir_modern",1
+"421","HAMTEST_0000969","ISIC_0035691","akiec","histo",50,"male","hand","vidir_modern",1
+"422","HAMTEST_0000970","ISIC_0035692","bcc","histo",50,"male","unknown","external",1
+"423","HAMTEST_0000972","ISIC_0035694","bkl","consensus",NA,"unknown","unknown","external",0
+"424","HAMTEST_0000973","ISIC_0035695","df","histo",NA,"unknown","unknown","external",0
+"425","HAMTEST_0000974","ISIC_0035696","mel","histo",70,"male","neck","vidir_modern",1
+"426","HAMTEST_0000968","ISIC_0035698","mel","histo",60,"male","lower extremity","vidir_modern",1
+"427","HAMTEST_0000977","ISIC_0035700","mel","histo",NA,"unknown","unknown","external",1
+"428","HAMTEST_0000978","ISIC_0035701","bkl","consensus",NA,"unknown","unknown","external",0
+"429","HAMTEST_0000982","ISIC_0035705","mel","histo",45,"female","lower extremity","vidir_modern",1
+"430","HAMTEST_0000985","ISIC_0035708","mel","histo",70,"male","upper extremity","vidir_modern",1
+"431","HAMTEST_0000988","ISIC_0035711","mel","histo",55,"female","upper extremity","vidir_modern",1
+"432","HAMTEST_0000547","ISIC_0035714","mel","histo",65,"female","foot","vidir_modern",1
+"433","HAMTEST_0000991","ISIC_0035715","bkl","consensus",NA,"unknown","unknown","external",0
+"434","HAMTEST_0000994","ISIC_0035718","bcc","histo",NA,"unknown","unknown","external",1
+"435","HAMTEST_0000995","ISIC_0035719","mel","histo",60,"male","lower extremity","vidir_modern",1
+"436","HAMTEST_0000996","ISIC_0035720","mel","histo",75,"male","unknown","external",1
+"437","HAMTEST_0000997","ISIC_0035721","mel","histo",80,"male","chest","vidir_modern",1
+"438","HAMTEST_0000999","ISIC_0035723","df","histo",NA,"unknown","unknown","external",0
+"439","HAMTEST_0000898","ISIC_0035724","vasc","histo",20,"male","upper extremity","vidir_modern",0
+"440","HAMTEST_0001004","ISIC_0035729","df","consensus",45,"female","lower extremity","vidir_modern",0
+"441","HAMTEST_0001005","ISIC_0035730","bkl","histo",65,"male","abdomen","vidir_modern",0
+"442","HAMTEST_0001006","ISIC_0035732","mel","histo",45,"female","back","vidir_modern",1
+"443","HAMTEST_0001007","ISIC_0035733","bcc","histo",65,"female","lower extremity","vidir_modern",1
+"444","HAMTEST_0001009","ISIC_0035735","bkl","histo",NA,"unknown","unknown","external",0
+"445","HAMTEST_0001010","ISIC_0035736","mel","histo",70,"unknown","unknown","external",1
+"446","HAMTEST_0001011","ISIC_0035737","vasc","consensus",45,"unknown","unknown","external",0
+"447","HAMTEST_0001012","ISIC_0035739","bkl","histo",NA,"unknown","unknown","external",0
+"448","HAMTEST_0001014","ISIC_0035741","bkl","consensus",NA,"unknown","unknown","external",0
+"449","HAMTEST_0001017","ISIC_0035744","bcc","histo",70,"female","back","vidir_modern",1
+"450","HAMTEST_0001020","ISIC_0035747","mel","histo",25,"female","upper extremity","vidir_modern",1
+"451","HAMTEST_0001021","ISIC_0035748","mel","histo",70,"male","lower extremity","vidir_modern",1
+"452","HAMTEST_0001023","ISIC_0035750","bkl","histo",50,"male","back","vidir_modern",0
+"453","HAMTEST_0001024","ISIC_0035751","bkl","histo",65,"male","face","vidir_modern",0
+"454","HAMTEST_0001007","ISIC_0035752","bcc","histo",65,"female","lower extremity","vidir_modern",1
+"455","HAMTEST_0001025","ISIC_0035753","bkl","consensus",80,"female","back","vidir_modern",0
+"456","HAMTEST_0001026","ISIC_0035754","bkl","consensus",NA,"unknown","unknown","external",0
+"457","HAMTEST_0000942","ISIC_0035755","bkl","consensus",25,"female","face","vidir_modern",0
+"458","HAMTEST_0001027","ISIC_0035756","mel","histo",70,"male","unknown","external",1
+"459","HAMTEST_0001029","ISIC_0035759","df","consensus",NA,"unknown","unknown","external",0
+"460","HAMTEST_0001031","ISIC_0035761","bcc","histo",NA,"unknown","unknown","external",1
+"461","HAMTEST_0001033","ISIC_0035763","bkl","histo",NA,"unknown","unknown","external",0
+"462","HAMTEST_0001034","ISIC_0035764","mel","histo",75,"male","unknown","external",1
+"463","HAMTEST_0001035","ISIC_0035765","bkl","histo",65,"female","face","vidir_modern",0
+"464","HAMTEST_0000960","ISIC_0035766","mel","histo",45,"female","back","vidir_modern",1
+"465","HAMTEST_0000547","ISIC_0035767","mel","histo",65,"female","foot","vidir_modern",1
+"466","HAMTEST_0001036","ISIC_0035768","bkl","histo",50,"unknown","unknown","external",0
+"467","HAMTEST_0001017","ISIC_0035772","bcc","histo",70,"female","back","vidir_modern",1
+"468","HAMTEST_0001005","ISIC_0035776","bkl","histo",65,"male","abdomen","vidir_modern",0
+"469","HAMTEST_0001042","ISIC_0035778","df","consensus",50,"female","lower extremity","vidir_modern",0
+"470","HAMTEST_0001049","ISIC_0035787","bkl","consensus",NA,"unknown","unknown","external",0
+"471","HAMTEST_0001051","ISIC_0035789","mel","histo",80,"male","upper extremity","vidir_modern",1
+"472","HAMTEST_0001052","ISIC_0035790","bcc","histo",NA,"unknown","unknown","external",1
+"473","HAMTEST_0001055","ISIC_0035794","mel","histo",70,"male","back","vidir_modern",1
+"474","HAMTEST_0001059","ISIC_0035799","bkl","consensus",NA,"unknown","unknown","external",0
+"475","HAMTEST_0001060","ISIC_0035802","bkl","histo",NA,"unknown","unknown","external",0
+"476","HAMTEST_0001023","ISIC_0035805","bkl","histo",50,"male","back","vidir_modern",0
+"477","HAMTEST_0001063","ISIC_0035807","bkl","consensus",NA,"unknown","unknown","external",0
+"478","HAMTEST_0001066","ISIC_0035810","bkl","histo",85,"male","back","vidir_modern",0
+"479","HAMTEST_0001069","ISIC_0035814","vasc","consensus",55,"female","unknown","external",0
+"480","HAMTEST_0000944","ISIC_0035816","mel","histo",65,"male","back","vidir_modern",1
+"481","HAMTEST_0001072","ISIC_0035818","bkl","histo",NA,"unknown","unknown","external",0
+"482","HAMTEST_0001073","ISIC_0035819","mel","histo",55,"female","unknown","external",1
+"483","HAMTEST_0001075","ISIC_0035821","df","consensus",NA,"unknown","unknown","external",0
+"484","HAMTEST_0000960","ISIC_0035823","mel","histo",45,"female","back","vidir_modern",1
+"485","HAMTEST_0001007","ISIC_0035824","bcc","histo",65,"female","lower extremity","vidir_modern",1
+"486","HAMTEST_0000932","ISIC_0035825","mel","histo",65,"female","lower extremity","vidir_modern",1
+"487","HAMTEST_0000974","ISIC_0035826","mel","histo",70,"male","neck","vidir_modern",1
+"488","HAMTEST_0001076","ISIC_0035827","mel","histo",65,"male","unknown","external",1
+"489","HAMTEST_0001077","ISIC_0035829","bkl","histo",NA,"unknown","unknown","external",0
+"490","HAMTEST_0001079","ISIC_0035831","bkl","consensus",NA,"unknown","unknown","external",0
+"491","HAMTEST_0000942","ISIC_0035833","bkl","consensus",25,"female","face","vidir_modern",0
+"492","HAMTEST_0001080","ISIC_0035834","bkl","histo",NA,"unknown","unknown","external",0
+"493","HAMTEST_0000969","ISIC_0035842","akiec","histo",50,"male","hand","vidir_modern",1
+"494","HAMTEST_0001084","ISIC_0035844","df","consensus",NA,"unknown","unknown","external",0
+"495","HAMTEST_0001085","ISIC_0035845","mel","histo",50,"male","back","vidir_modern",1
+"496","HAMTEST_0001086","ISIC_0035846","mel","histo",60,"female","back","vidir_modern",1
+"497","HAMTEST_0001087","ISIC_0035847","bkl","consensus",NA,"unknown","unknown","external",0
+"498","HAMTEST_0001088","ISIC_0035848","bcc","histo",45,"female","unknown","vidir_modern",1
+"499","HAMTEST_0001090","ISIC_0035852","vasc","histo",65,"male","back","vidir_modern",0
+"500","HAMTEST_0000995","ISIC_0035853","mel","histo",60,"male","lower extremity","vidir_modern",1
+"501","HAMTEST_0001055","ISIC_0035854","mel","histo",70,"male","back","vidir_modern",1
+"502","HAMTEST_0001091","ISIC_0035855","bcc","histo",NA,"unknown","unknown","external",1
+"503","HAMTEST_0001094","ISIC_0035863","df","histo",NA,"unknown","unknown","external",0
+"504","HAMTEST_0001096","ISIC_0035865","bkl","histo",NA,"unknown","unknown","external",0
+"505","HAMTEST_0001097","ISIC_0035866","bkl","histo",40,"female","face","vidir_modern",0
+"506","HAMTEST_0000982","ISIC_0035868","mel","histo",45,"female","lower extremity","vidir_modern",1
+"507","HAMTEST_0001100","ISIC_0035871","bcc","histo",NA,"unknown","unknown","external",1
+"508","HAMTEST_0001101","ISIC_0035873","bkl","consensus",NA,"unknown","unknown","external",0
+"509","HAMTEST_0001103","ISIC_0035876","bcc","histo",NA,"unknown","unknown","external",1
+"510","HAMTEST_0001006","ISIC_0035877","mel","histo",45,"female","back","vidir_modern",1
+"511","HAMTEST_0001104","ISIC_0035878","bkl","histo",NA,"unknown","unknown","external",0
+"512","HAMTEST_0001106","ISIC_0035881","bkl","consensus",NA,"unknown","unknown","external",0
+"513","HAMTEST_0001107","ISIC_0035882","akiec","histo",70,"female","face","vidir_modern",1
+"514","HAMTEST_0001085","ISIC_0035887","mel","histo",50,"male","back","vidir_modern",1
+"515","HAMTEST_0001006","ISIC_0035888","mel","histo",45,"female","back","vidir_modern",1
+"516","HAMTEST_0000988","ISIC_0035889","mel","histo",55,"female","upper extremity","vidir_modern",1
+"517","HAMTEST_0001112","ISIC_0035890","df","consensus",NA,"unknown","unknown","external",0
+"518","HAMTEST_0000974","ISIC_0035894","mel","histo",70,"male","neck","vidir_modern",1
+"519","HAMTEST_0001119","ISIC_0035899","bkl","consensus",NA,"unknown","unknown","external",0
+"520","HAMTEST_0000985","ISIC_0035900","mel","histo",70,"male","upper extremity","vidir_modern",1
+"521","HAMTEST_0001120","ISIC_0035901","bcc","histo",NA,"unknown","unknown","external",1
+"522","HAMTEST_0001121","ISIC_0035902","mel","histo",85,"male","unknown","external",1
+"523","HAMTEST_0001123","ISIC_0035904","df","histo",80,"male","unknown","external",0
+"524","HAMTEST_0001124","ISIC_0035905","vasc","consensus",NA,"unknown","unknown","external",0
+"525","HAMTEST_0001126","ISIC_0035908","bkl","histo",NA,"unknown","unknown","external",0
+"526","HAMTEST_0001090","ISIC_0035910","vasc","histo",65,"male","back","vidir_modern",0
+"527","HAMTEST_0001128","ISIC_0035911","mel","histo",50,"male","face","vidir_modern",1
+"528","HAMTEST_0000932","ISIC_0035913","mel","histo",65,"female","lower extremity","vidir_modern",1
+"529","HAMTEST_0001129","ISIC_0035914","mel","histo",85,"male","face","vidir_modern",1
+"530","HAMTEST_0001107","ISIC_0035915","akiec","histo",70,"female","face","vidir_modern",1
+"531","HAMTEST_0001130","ISIC_0035917","bkl","histo",NA,"unknown","unknown","external",0
+"532","HAMTEST_0001035","ISIC_0035918","bkl","histo",65,"female","face","vidir_modern",0
+"533","HAMTEST_0001131","ISIC_0035919","df","consensus",50,"female","unknown","external",0
+"534","HAMTEST_0001132","ISIC_0035920","mel","histo",50,"unknown","unknown","external",1
+"535","HAMTEST_0001129","ISIC_0035922","mel","histo",85,"male","face","vidir_modern",1
+"536","HAMTEST_0000997","ISIC_0035923","mel","histo",80,"male","chest","vidir_modern",1
+"537","HAMTEST_0001134","ISIC_0035925","vasc","histo",NA,"unknown","unknown","external",0
+"538","HAMTEST_0001135","ISIC_0035926","bkl","consensus",NA,"unknown","unknown","external",0
+"539","HAMTEST_0001138","ISIC_0035929","mel","histo",55,"male","foot","vidir_modern",1
+"540","HAMTEST_0001090","ISIC_0035931","vasc","histo",65,"male","back","vidir_modern",0
+"541","HAMTEST_0001140","ISIC_0035932","bkl","consensus",NA,"unknown","unknown","external",0
+"542","HAMTEST_0001141","ISIC_0035933","bcc","histo",NA,"unknown","unknown","external",1
+"543","HAMTEST_0001142","ISIC_0035934","mel","histo",55,"male","unknown","external",1
+"544","HAMTEST_0001144","ISIC_0035937","bkl","histo",NA,"unknown","unknown","external",0
+"545","HAMTEST_0001145","ISIC_0035938","mel","histo",50,"male","foot","vidir_modern",1
+"546","HAMTEST_0001042","ISIC_0035940","df","consensus",50,"female","lower extremity","vidir_modern",0
+"547","HAMTEST_0001146","ISIC_0035942","bcc","histo",40,"female","unknown","external",1
+"548","HAMTEST_0001147","ISIC_0035944","df","histo",50,"unknown","unknown","external",0
+"549","HAMTEST_0001149","ISIC_0035946","vasc","histo",NA,"unknown","unknown","external",0
+"550","HAMTEST_0001151","ISIC_0035949","bkl","histo",NA,"unknown","unknown","external",0
+"551","HAMTEST_0001152","ISIC_0035950","bkl","consensus",NA,"unknown","unknown","external",0
+"552","HAMTEST_0001153","ISIC_0035952","vasc","consensus",NA,"unknown","unknown","external",0
+"553","HAMTEST_0000950","ISIC_0035953","bkl","histo",15,"female","back","vidir_modern",0
+"554","HAMTEST_0001042","ISIC_0035955","df","consensus",50,"female","lower extremity","vidir_modern",0
+"555","HAMTEST_0001155","ISIC_0035956","mel","histo",70,"male","scalp","vidir_modern",1
+"556","HAMTEST_0001156","ISIC_0035957","bcc","histo",70,"male","back","vidir_modern",1
+"557","HAMTEST_0001158","ISIC_0035959","bkl","consensus",75,"female","unknown","external",0
+"558","HAMTEST_0001088","ISIC_0035960","bcc","histo",45,"female","unknown","vidir_modern",1
+"559","HAMTEST_0000995","ISIC_0035964","mel","histo",60,"male","lower extremity","vidir_modern",1
+"560","HAMTEST_0001086","ISIC_0035968","mel","histo",60,"female","back","vidir_modern",1
+"561","HAMTEST_0001164","ISIC_0035976","bcc","histo",NA,"unknown","unknown","external",1
+"562","HAMTEST_0001165","ISIC_0035977","bcc","histo",65,"male","upper extremity","vidir_modern",1
+"563","HAMTEST_0001004","ISIC_0035982","df","consensus",45,"female","lower extremity","vidir_modern",0
+"564","HAMTEST_0000988","ISIC_0035986","mel","histo",55,"female","upper extremity","vidir_modern",1
+"565","HAMTEST_0001174","ISIC_0035992","mel","histo",NA,"unknown","unknown","external",1
+"566","HAMTEST_0001097","ISIC_0035993","bkl","histo",40,"female","face","vidir_modern",0
+"567","HAMTEST_0001175","ISIC_0035996","bkl","consensus",NA,"unknown","unknown","external",0
+"568","HAMTEST_0001176","ISIC_0035997","mel","histo",30,"female","unknown","external",1
+"569","HAMTEST_0001179","ISIC_0036000","vasc","histo",NA,"unknown","unknown","external",0
+"570","HAMTEST_0001181","ISIC_0036002","bcc","histo",NA,"unknown","unknown","external",1
+"571","HAMTEST_0001182","ISIC_0036003","bkl","consensus",NA,"unknown","unknown","external",0
+"572","HAMTEST_0001183","ISIC_0036004","bcc","histo",NA,"unknown","unknown","external",1
+"573","HAMTEST_0001138","ISIC_0036005","mel","histo",55,"male","foot","vidir_modern",1
+"574","HAMTEST_0001184","ISIC_0036006","bcc","histo",NA,"unknown","unknown","external",1
+"575","HAMTEST_0001185","ISIC_0036007","df","consensus",NA,"unknown","unknown","external",0
+"576","HAMTEST_0001186","ISIC_0036008","bkl","consensus",NA,"unknown","unknown","external",0
+"577","HAMTEST_0001187","ISIC_0036009","bcc","histo",NA,"unknown","unknown","external",1
+"578","HAMTEST_0001188","ISIC_0036011","bcc","histo",NA,"unknown","unknown","external",1
+"579","HAMTEST_0000985","ISIC_0036012","mel","histo",70,"male","upper extremity","vidir_modern",1
+"580","HAMTEST_0001190","ISIC_0036015","bkl","consensus",NA,"unknown","unknown","external",0
+"581","HAMTEST_0001191","ISIC_0036016","bcc","histo",90,"male","lower extremity","vidir_modern",1
+"582","HAMTEST_0001193","ISIC_0036018","df","consensus",NA,"unknown","unknown","external",0
+"583","HAMTEST_0001194","ISIC_0036019","bkl","histo",NA,"unknown","unknown","external",0
+"584","HAMTEST_0001195","ISIC_0036021","bkl","histo",NA,"unknown","unknown","external",0
+"585","HAMTEST_0001165","ISIC_0036022","bcc","histo",65,"male","upper extremity","vidir_modern",1
+"586","HAMTEST_0001196","ISIC_0036023","bkl","histo",NA,"unknown","unknown","external",0
+"587","HAMTEST_0001198","ISIC_0036025","bkl","histo",65,"male","scalp","vidir_modern",0
+"588","HAMTEST_0001199","ISIC_0036026","mel","histo",NA,"unknown","unknown","external",1
+"589","HAMTEST_0001202","ISIC_0036029","mel","histo",NA,"unknown","unknown","external",1
+"590","HAMTEST_0001203","ISIC_0036031","bcc","histo",65,"male","unknown","external",1
+"591","HAMTEST_0001035","ISIC_0036032","bkl","histo",65,"female","face","vidir_modern",0
+"592","HAMTEST_0001204","ISIC_0036034","mel","histo",75,"female","unknown","external",1
+"593","HAMTEST_0001205","ISIC_0036035","bcc","histo",NA,"unknown","unknown","external",1
+"594","HAMTEST_0001198","ISIC_0036043","bkl","histo",65,"male","scalp","vidir_modern",0
+"595","HAMTEST_0001212","ISIC_0036050","bkl","histo",NA,"unknown","unknown","external",0
+"596","HAMTEST_0001055","ISIC_0036051","mel","histo",70,"male","back","vidir_modern",1
+"597","HAMTEST_0001023","ISIC_0036053","bkl","histo",50,"male","back","vidir_modern",0
+"598","HAMTEST_0001216","ISIC_0036056","mel","histo",30,"female","unknown","external",1
+"599","HAMTEST_0001020","ISIC_0036057","mel","histo",25,"female","upper extremity","vidir_modern",1
+"600","HAMTEST_0001219","ISIC_0036060","bkl","consensus",NA,"unknown","unknown","external",0
+"601","HAMTEST_0001107","ISIC_0036062","akiec","histo",70,"female","face","vidir_modern",1
+"602","HAMTEST_0001221","ISIC_0036063","bkl","consensus",NA,"unknown","unknown","external",0
+"603","HAMTEST_0001222","ISIC_0036064","bcc","histo",NA,"unknown","unknown","external",1
